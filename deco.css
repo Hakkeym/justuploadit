@@ -1,0 +1,13 @@
+*{
+	margin: 0; padding: 0;
+}
+
+html, body, #container{
+	height: 100%
+
+}
+
+.footer2{
+	background: #111;
+	color: white;
+}
