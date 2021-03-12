@@ -6,19 +6,11 @@
 
  	<style type="text/css">
 
- 		.image{
+ 		/* .image{
  			width: 250px;
 			
- 		}
+ 		} */
 
- 		
- 		.navbar-expand-lg{
-      background-color: #212529 !important;
-    }
-
-    .nav-link{
-      color: white !important;
-    }
 
 	.h5{
 		color: red;

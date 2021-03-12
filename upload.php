@@ -1,14 +1,12 @@
 <?php
-if (isset($_POST['submit'])) {
 
+if (isset($_POST['submit'])) {
 	$folder= "uploads/";
 	$imageName= $_FILES['image']['name'];
 	$imageSize= $_FILES['image']['size'];
 	$imageTmp= $_FILES['image']['tmp_name'];
 	$imageExt= pathinfo($imageName, PATHINFO_EXTENSION);
 	$imagePath= $folder.$imageName;
-
-
 
 	
 
@@ -20,20 +18,21 @@ if (isset($_POST['submit'])) {
 
 	
 
+			else{
+				$upload= move_uploaded_file($imageTmp, $imagePath);
+				if ($upload) {
+					echo "upload successfully";
+				}
 
-	else{
-		$upload= move_uploaded_file($imageTmp, $imagePath);
-		if ($upload) {
-			echo "upload successful";
 	
-
-		
-}
-		else{
-			echo "upload unsuccesful";
+			else{
+				echo"unsuccesful";
+			}
+			
 		}
+
 	}
-}
+			
 
 ?>
 
@@ -44,9 +43,11 @@ if (isset($_POST['submit'])) {
 	<title>Upload your products</title> 
 	<link rel="stylesheet" type="text/css" href="bootstrap.min.css">
 </head>
+
 <div class="container">
 
-<table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+    <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
+
 <center><tr><br><br><br><br>
    <td><h1>Fill before Uploading</h1></td>
 
@@ -54,7 +55,7 @@ if (isset($_POST['submit'])) {
 
 <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
 <tr>
-	<h4 class="h3"> NOTE: Please fill all form below, failure to do so would nullify your upload</h4><br>
+	<h4 class="h3"> NOTE: Please fill all forms below, failure to do so could nullify your upload</h4><br>
 
 	<style type="text/css">
 		.h3{
@@ -104,12 +105,3 @@ if (isset($_POST['submit'])) {
 
 </body>
 </html> 
-	
-
-
-
-
-
-
-
-

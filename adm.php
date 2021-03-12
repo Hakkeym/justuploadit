@@ -1,7 +1,8 @@
-<?php
+<?php 
+
 session_start();
 if (!isset($SESSION['email'])) {
-	//  header('location: index.php');
+	 header('location: index.php');
 }
 
 
@@ -66,7 +67,7 @@ if (isset($_POST['submit'])) {
 		}
 
 
-}  //else
+}  
 	
 
 
@@ -82,6 +83,7 @@ if (isset($_POST['submit'])) {
 
 
 ?>
+
 
 <!DOCTYPE html>
 <html>
@@ -106,6 +108,8 @@ if (isset($_POST['submit'])) {
 	</form>
 
 <center><a href="adm2.php" button class="btn btn-block">CLICK TO UPLOAD PICTURES OF CLOTHES CATEGORY</a>
+
+
 
 
 

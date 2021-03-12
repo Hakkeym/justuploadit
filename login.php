@@ -1,11 +1,10 @@
 <?php
 
-
-
-session_start();
+// session_start();
 // if (!isset($SESSION['email'])) {
 // 	 header('location: index.php');
 // } 
+
 if (isset($_POST['Login'])) {
 	$email= $_POST['email'];
 	$password= $_POST['password'];
@@ -26,8 +25,9 @@ if (isset($_POST['Login'])) {
 	else{
 		while ($row= mysqli_fetch_array($result)) {
 			$_SESSION['email']= $row['email'];
-			$_SESSION['id']= $row['id'];
 			$_SESSION['password']= $row['password'];
+			$_SESSION['id']= $row['id'];
+			
 		}
 
 		header('location:adm.php');

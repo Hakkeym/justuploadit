@@ -61,3 +61,7 @@ if (isset($_POST['submit'])) {
 					<input type="submit" name="submit" class="btn btn-primary" value="Create Account"><br><br>
 					<center><a href="index.php" button class="btn btn-danger">go back</a></center>
 				</form>
+
+
+
+<form method="">
