@@ -38,7 +38,7 @@ color: red;
 <a href='tel:+2348053659377 ' class='btn btn-primary'>Call the seller: 08053659377</a><br>
 <b>CITY: AKURE</b><br>
 <b>PRICE: #23000</b>   <del>39,500</del><br>
-<b>PRODUCT NAME: Complete Kaftan</b>
+<b>PRODUCT NAME: Complete Kaftan</b><br><br>
 </div>
 
 <div class="col-md-4">
@@ -46,7 +46,7 @@ color: red;
 <a href='tel:+2347038889592 ' class='btn btn-primary'>Call the seller: 07038889592</a><br>
 <b>CITY: ASABA</b><br>
 <b>PRICE: #26000</b>   <del>48,000</del><br>
-<b>PRODUCT NAME: Kaftan style</b>
+<b>PRODUCT NAME: Kaftan style</b><br><br>
 </div>
 
 <div class="col-md-4">
@@ -63,7 +63,7 @@ color: red;
 <a href='tel:+2349130212883 ' class='btn btn-primary'>Call the seller: 09130212883 </a><br>
 <b>CITY: LOKOJA</b><br>
 <b>PRICE: #25000</b>   <del>45,000</del><br>
-<b>PRODUCT NAME: Designed Kaftan</b>
+<b>PRODUCT NAME: Designed Kaftan</b><br><br>
 </div>
 
 <div class="col-md-4">
@@ -71,7 +71,7 @@ color: red;
 <a href='tel:+2348077449915' class='btn btn-primary'>Call the seller: 08077449915</a><br>
 <b>CITY: KANO</b><br>
 <b>PRICE: #19000</b>   <del>35,000</del><br>
-<b>PRODUCT NAME: Up and down native wear</b>
+<b>PRODUCT NAME: Up and down native wear</b><br><br>
 </div>
 
 <div class="col-md-4">
