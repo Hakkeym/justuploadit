@@ -82,7 +82,7 @@
     }
 
   </style><br>
-  <h5> Hakkeym is an Educationist, a Msc degree holder in Information Technology, a Programmer (Website Developer) and he is the owner of this site, created by him and as well he is incharge as an admin of the website. You can reach him out pertaining to the main objectives on why this platform is being created and you can eaqually get in touch on how to improve the site. <b>hakkeymshiru7@gmail.com</b></h5><br>
+  <h5> Hakkeym is an Educationist, a Msc degree holder in Information Technology, a Programmer (Website Developer)and he is the owner of this site(justuploadit), created by him and as well he is incharge as an admin of the website. You can reach him out pertaining to the main objectives on why this platform is being created and you can equally get in touch on how to improve the site.<b>hakkeymshiru7@gmail.com</b></h5><br>
 
  
  
@@ -106,20 +106,20 @@
       </div>
 
   <div class="col-md-4">
-    <a href="cars.php">
+    <a href="cars0.php">
     <img src="02.jpg" class="ctg"><br></a><br>
     <h4 class="me">Cars</h4>
   </div>
 
   <div class="col-md-4">
-<a href="clothes.php">
+<a href="clothes0.php">
   <img src="003.jpg" class="ctg"></a><br><br>
   <h4 class="me">Clothes</h4>
 </div></div><br>
 
 <div class="row">
 <div class="col-md-4">
-  <a href="computers.php>">
+  <a href="laptaps0.php>">
   <img src="pc.jpg" class="ctg"></a><br><br>
   <h4 class="me">Laptop</h4>
 </div>
@@ -183,7 +183,7 @@
       <div class="footer2"><br><br>
     <center><center>
 <a href="mailto:EmailAddress@.hakkeymshiru7@gmail.com"><i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i><pre></pre></a>
-<a href='https://wa.me/8065162178' target='_blank'><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><h7> <pre></pre></a>
+<a href='https://wa.me/+2348065162178' target='_blank'><i class="fa fa-whatsapp fa-2x" aria-hidden="true"></i><h7> <pre></pre></a>
 
 </center></center>
         
@@ -247,3 +247,16 @@
 
 </body>
 </html>
+<!-- 
+<!-- <?php
+//Get Heroku ClearDB connection information
+$cleardb_url = parse_url(getenv("CLEARDB_DATABASE_URL"));
+$cleardb_server = $cleardb_url["host"];
+$cleardb_username = $cleardb_url["user"];
+$cleardb_password = $cleardb_url["pass"];
+$cleardb_db = substr($cleardb_url["path"],1);
+$active_group = 'default';
+$query_builder = TRUE;
+// Connect to DB
+$conn = mysqli_connect($cleardb_server, $cleardb_username, $cleardb_password, $cleardb_db);
+?> --> -->
