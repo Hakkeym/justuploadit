@@ -22,7 +22,7 @@
   	}
 
   	.left {
-  		width: 30vw;
+  		width: 40vw;
   		background-color: grey!important;
 
 
