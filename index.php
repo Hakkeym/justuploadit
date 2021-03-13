@@ -30,7 +30,7 @@
 
   	 .right{ 
 
-  	 	width: 110vw;
+  	 	width: 115vw;
   	 	background-color: #333;
 
 
@@ -105,11 +105,6 @@
         <h4 class="me">Upload</h4>
       </div>
 
-  <!-- <div class="col-md-4">
-    <a href="cars0.php">
-    <img src="02.jpg" class="ctg"><br></a><br>
-    <h4 class="me">Cars</h4>
-  </div> -->
 
   <div class="col-md-4">
 <a href="clothes0.php">
