@@ -6,11 +6,7 @@
 
  	<style type="text/css">
 
- 		/* .image{
- 			width: 250px;
-			
- 		} */
-
+ 	
 
 	.h5{
 		color: red;
