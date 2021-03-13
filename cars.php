@@ -53,7 +53,7 @@ $query= "select * from carbase";
 $result= mysqli_query($connection, $query);
 
 $count=0;
-// comments
+
 while ($row= mysqli_fetch_array($result)) {
 	$image=$row['image_name'];
 	$Tel_number=$row['Tel_number'];
