@@ -119,7 +119,7 @@
 
 <div class="row">
 <div class="col-md-4">
-  <a href="laptaps0.php>">
+  <a href="laptops0.php>">
   <img src="pc.jpg" class="ctg"></a><br><br>
   <h4 class="me">Laptop</h4>
 </div>
