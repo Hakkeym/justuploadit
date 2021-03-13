@@ -105,17 +105,23 @@
         <h4 class="me">Upload</h4>
       </div>
 
-  <div class="col-md-4">
+  <!-- <div class="col-md-4">
     <a href="cars0.php">
     <img src="02.jpg" class="ctg"><br></a><br>
     <h4 class="me">Cars</h4>
-  </div>
+  </div> -->
 
   <div class="col-md-4">
 <a href="clothes0.php">
   <img src="003.jpg" class="ctg"></a><br><br>
   <h4 class="me">Clothes</h4>
-</div></div><br>
+</div>
+
+<div class="col-md-4">
+    <a href="cars0.php">
+    <img src="02.jpg" class="ctg"><br></a><br>
+    <h4 class="me">Cars</h4>
+  </div></div><br>
 
 <div class="row">
 <div class="col-md-4">
