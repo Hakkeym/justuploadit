@@ -30,7 +30,7 @@
 
   	 .right{ 
 
-  	 	width: 88vw;
+  	 	width: 120vw;
   	 	background-color: #333;
 
 
