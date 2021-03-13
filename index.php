@@ -22,7 +22,7 @@
   	}
 
   	.left {
-  		width: 35vw;
+  		width: 20vw;
   		background-color: grey!important;
 
 
@@ -30,7 +30,7 @@
 
   	 .right{ 
 
-  	 	width: 120vw;
+  	 	width: 95vw;
   	 	background-color: #333;
 
 
